@@ -3,66 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Thalari Nikitha | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4a148c;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0.2em 0;
+    }
+    header p {
+      margin: 0.3em 0;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #4a148c;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 0.3rem 0;
+    }
+    .contact a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #4a148c;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      background: #4a148c;
+      color: #fff;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Nikitha Thalari</h1>
-      <p>Aspiring Software Engineer | Problem Solver | Learner</p>
-    </div>
+    <h1>Thalari Nikitha</h1>
+    <p>📞 +91 7013355085 | 📧 <a href="mailto:nikithathalari257@gmail.com" style="color:white;">nikithathalari257@gmail.com</a></p>
+    <p>
+      <a href="https://linkedin.com/in/thalari-nikitha">LinkedIn</a> |
+      <a href="https://github.com/nikitha-nikki12">GitHub</a>
+    </p>
+    <nav>
+      <a href="#objective">Objective</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#projects">Projects</a>
+    </nav>
   </header>
 
-  <nav>
+  <section id="objective">
+    <h2>Career Objective</h2>
+    <p>Self-motivated and detail-oriented B.Tech Computer Science Engineering student with strong skills in Python, HTML, and CSS. Seeking a role to contribute to a dynamic team while continuing to learn and grow through hands-on experience.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><b>B.Tech in Computer Science and Engineering</b> — Mother Theresa College of Engineering (2022 – Present) | CGPA: 8.09/10 (Till Date)</li>
+      <li><b>Intermediate</b> — Mother Theresa Junior College (2020 – 2022) | 70%</li>
+      <li><b>SSC</b> — Viswa Bharathi E.M High School (2020) | 93%</li>
     </ul>
-  </nav>
-
-  <section id="about" class="container">
-    <h2>About Me</h2>
-    <p>
-      I am a final-year student passionate about software development and problem solving. 
-      I enjoy learning new technologies and applying them to build useful applications.
-    </p>
   </section>
 
-  <section id="projects" class="container">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Contact Book (Python + Flask)</h3>
-      <p>A simple web app to store and manage contacts with add/delete functionality.</p>
-    </div>
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>This website itself is a project built using HTML and CSS.</p>
-    </div>
-  </section>
-
-  <section id="skills" class="container">
+  <section id="skills">
     <h2>Skills</h2>
     <ul>
-      <li>Python, C</li>
-      <li>HTML, CSS</li>
-      <li>GitHub (Basics)</li>
-      <li>Problem Solving</li>
-      <li>Communication & Teamwork</li>
+      <li><b>Programming:</b> Python, Java (Basics)</li>
+      <li><b>Web Development:</b> HTML, CSS, JavaScript (Basics)</li>
+      <li><b>Tools:</b> VS Code, Jupyter Notebook, GitHub</li>
+      <li><b>Soft Skills:</b> Problem Solving, Teamwork, Communication, Adaptability, Time Management</li>
     </ul>
   </section>
 
-  <section id="contact" class="container">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:nikitha@email.com">nikitha@email.com</a></p>
-    <p>LinkedIn: <a href="#">linkedin.com/in/nikitha</a></p>
-    <p>GitHub: <a href="#">github.com/nikitha</a></p>
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Python Course — SkillDzire (May 2025 - July 2025)</li>
+      <li>Machine Learning Using Python (Aug 2025)</li>
+      <li>IBM SkillsBuild — Python Programming (Dec 2024)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><b>Personal Portfolio page | HTML & CSS</b><br>
+        Designed and developed a simple personal profile webpage using HTML and CSS. Showcased basic front-end skills including layout design, styling, and responsiveness.
+      </li>
+      <li><b>Contact Book | Python</b><br>
+        Created a basic contact book application in Python to store, search, and manage contact details. Applied concepts of file handling, loops, and functions.
+      </li>
+    </ul>
   </section>
 
   <footer>
-    <p>&copy; 2025 Nikitha Thalari </p>
+    <p>© 2025 Thalari Nikitha </p>
   </footer>
 </body>
 </html>
